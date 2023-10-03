@@ -1,12 +1,24 @@
-# str=input('enter the string : ').upper()
-# new_str=""
-# for i in str:
-#     str=chr(ord(i)+1)
-#     new_str=new_str+str #chr(str)
-# print(new_str[::-1],end="")
-#------------------------------
-str=input('enter the string : ').upper()
+def reverse(word):
+    rev=""
+    for i in word:
+        rev=i+rev
+    return rev
+str1="apple is red"
+newstr=str1.split(" ")
 ans=""
-for i in str:
-    ans=chr(ord(i)+1)+ans
+for i in range(len(newstr)):
+    word=newstr[i]
+    if i==len(newstr)-1:
+        word1=word.capitalize()
+        res=reverse(word1)
+        size=len(res)
+        ans=ans+(res+str(size))
+    else:
+        res=reverse(word)
+        size=len(res)
+        ans=ans+(res+str(size))
+
+
 print(ans)
+
+
