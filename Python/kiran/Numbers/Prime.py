@@ -4,4 +4,5 @@ def check_Prime(num):
             return False
     return True
 num=int(input("Enter an element"))
-print(check_Prime(num))
+
+
