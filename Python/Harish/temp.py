@@ -1,4 +1,8 @@
-i=0
-while(i<=5):
-    print(i)
-    i+=1
+str1=input("enter a str: ")
+newstr=""
+for i in str1:
+    if i ==" ":
+        pass
+    else:
+        newstr+=i
+print(newstr)
