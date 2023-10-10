@@ -8,11 +8,7 @@ def hollo_sq(n):
                 if p<=4:
                     print(p, end=" ")
                 else:
-                    print(j-1,end=" ")
-                
-                
-                    
-            
+                    print(j-1,end=" ") 
             else:
                 print(" ", end=" ")
             p+=1
