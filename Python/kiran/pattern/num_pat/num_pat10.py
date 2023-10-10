@@ -31,4 +31,3 @@ def num_patt(n):
     
 n=5
 num_patt(n)
-#YO
