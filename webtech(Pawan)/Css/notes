@@ -1,0 +1,15 @@
+css
+cascading style sheet
+it is used to style HTML document 
+it is described as display of HTML elements
+current version is css3
+
+in html document we can use css files in 3 ways:
+1. inline css
+2.internal css
+3.external css
+
+1.inline css
+by using "style" attribute writing code inside HTML tag
+syntax:-
+<tag style="property.value">
