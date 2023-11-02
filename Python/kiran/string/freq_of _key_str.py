@@ -8,6 +8,5 @@ def freq(str1,key):
 
 
 str1="abcbdidbbcb"
-key="bcb
-"
+key="bcb"
 freq(str1,key)
