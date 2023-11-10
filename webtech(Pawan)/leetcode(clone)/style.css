@@ -1,0 +1,65 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+li {
+    float: left;
+  }
+li a {
+    display: block;
+    color: rgb(72, 65, 65);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover {
+    color: #000000;
+  }
+.login{
+  background-color:white;
+  border:2px solid rgb(255, 255, 255);
+  position:relative;
+  height:500px;
+  width:400px;
+  top:20%;
+  left:35%;
+
+}
+body{
+  background-color:rgb(226, 226, 226);
+}
+input{
+  width:350px;
+  height:40px;
+}
+button{
+  width:350px;
+  height:40px;
+  background-color:#455a64;
+  font: size 14px;
+  color:white;
+  line-height: 20px;
+  cursor: pointer;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: rgb(176, 190, 197);
+  border-right-color: rgb(176, 190, 197);
+  border-bottom-color: rgb(176, 190, 197);
+  border-left-color: rgb(176, 190, 197);
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  font-family: inherit;
+
+}

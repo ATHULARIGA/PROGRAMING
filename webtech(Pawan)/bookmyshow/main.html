@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>BookMyShow Clone</title>
+
+ <style>
+    body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+H1{
+    color: #f0f0f0;
+
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+main {
+  padding: 20px;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.movie-card {
+  width: 250px;
+  margin: 10px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.movie-info {
+  margin-top: 10px;
+}
+
+.movie-info h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.movie-info p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.book-now {
+  display: block;
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+ </style>
+</head>
+<body>
+  <header>
+   <H1></H1><img src="bookmyshow-logo.png"></H1>
+   <hr>
+  </header>
+
+  <main>
+    <section class="movies">
+      <h2>Now Showing</h2><br>
+
+      <div class="movie-card">
+        <img src="go.jpeg" alt="Movie Poster">
+        <div class="movie-info">
+          <h3>Movie Title</h3>
+          <p>Genre: Action, Adventure</p>
+          <p>Release Date: 2023-10-04</p>
+          <a href="#" class="book-now">Book Now</a>
+        </div>
+      </div>
+
+      <div class="movie-card">
+        <img src="go.jpeg"alt="Movie Poster">
+        <div class="movie-info">
+          <h3>Movie Title 2</h3>
+          <p>Genre: Comedy, Drama</p>
+          <p>Release Date: 2023-11-11</p>
+          <a href="#" class="book-now">Book Now</a>
+        </div>
+      </div>
+
+      <div class="movie-card">
+        <img src="go.jpeg" alt="Movie Poster">
+        <div class="movie-info">
+          <h3>Movie Title 3</h3>
+          <p>Genre: Animation, Family</p>
+          <p>Release Date: 2023-12-25</p>
+          <a href="#" class="book-now">Book Now</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    
+  </footer>
+</body>
+</html>
